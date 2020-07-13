@@ -17,7 +17,7 @@ variables:
   webRepository: 'web'
   tag: '$(Build.BuildId)'
   vmImageName: 'ubuntu-latest'
-  group: 'lmshuttlecustom'
+  group: lmshuttlecustom
 
 steps:
 - task: Maven@3
